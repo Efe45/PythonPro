@@ -21,6 +21,7 @@
     {% block content %}
     <h2 class="main__title">Evinizde kaç adet lamba bulunuyor:</h2>
     <ul class="list" id="list">
+
       <li class="list__item">
         <a href={{size + "/3" }}>
           <img class="item__img" src="../static/img/light.svg" alt="light">
@@ -35,8 +36,14 @@
       <li class="list__item">
         <a href={{size + "/10" }}>
           <img class="item__img" src="../static/img/light.svg" alt="light">
-          <span>8+ lamba</span></a>
+          <span>8-12 lamba</span></a>
       </li>
+    </li>
+    <li class="list__item">
+      <a href={{size + "/12" }}>
+        <img class="item__img" src="../static/img/light.svg" alt="light">
+        <span>12+ lamba</span></a>
+    </li>
     </ul>
     {% endblock %}
   </main>
